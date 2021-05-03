@@ -7,6 +7,8 @@ VAR
     tab3:ARRAY_OF INTEGER[5];
     exisit:BOOLEAN:=false;
 BEGIN
+  READ(tab1)
+  READ(tab2)
 FOR i FROM 0 TO tab1.length -1 STEP 1  DO
     exist:=false;
     y=i+1;

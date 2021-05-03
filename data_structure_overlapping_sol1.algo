@@ -22,6 +22,11 @@ BEGIN
 //we are now at  i=2
 //we will find it in tab3 exisit will be true and the sum will be  sum:=sum+tab[i]=15
 
+
+
+  READ(tab1)
+  READ(tab2)
+
 FOR i FROM 0 TO tab1.length -1 STEP 1  DO
         count:=0 ;
         exist:=false;

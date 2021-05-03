@@ -7,6 +7,11 @@ VAR
    count:INTEGER:=0;
    key:INTEGER;
 BEGIN
+
+
+  READ(tab1)
+  READ(tab2)
+
 FOR i FROM 0 TO tab1.length STEP 1  DO
   
   IF (htab.lookup(tab1[i])=true) THEN
