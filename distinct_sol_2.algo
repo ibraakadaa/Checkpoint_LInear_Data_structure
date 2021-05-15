@@ -1,5 +1,5 @@
 
-ALGORITHM sol2_overlapping 
+ALGORITHM sol2_of distinct
 VAR
    htab : HASH_TABLE<INTEGER,INTEGER>;
  tab1:ARRAY_OF INTEGER[10];

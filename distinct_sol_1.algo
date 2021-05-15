@@ -1,4 +1,5 @@
-ALGORITHM sum_of_overlapping
+ALGORITHM sum_of_distinct
+
 VAR
     sum:INTEGER:=0;
     i,j,k,l,y:INTEGER;
