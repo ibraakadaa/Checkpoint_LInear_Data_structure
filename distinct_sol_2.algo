@@ -12,12 +12,18 @@ BEGIN
 FOR i FROM 0 TO tab1.length -1 STEP 1  DO
     exist:=false;
     y=i+1;
-    FOR k FROM  y TO tab1.length STEP 1 DO //see if it exist in tab1 OTHER TIME
+    
+    IF(y<>tab1.length-1)
+    FOR k FROM  y TO tab1.length-1 STEP 1 DO //see if it exist in tab1 OTHER TIME
+     
+     
+     
       IF(tab1[i]=tab1[y]) THEN
        exist=true;
        BREAK;
        END_IF
     END_FOR
+    END_IF
     IF(exist=false)
       FOR l FROM 0 TO tab3.length -1 STEP 1  DO  //see if it exist in tab3 THAT where we STOCK THE PREVIOUS ELEMENT
               IF ((tab3[l]= tab1[i])  THEN  //IF WE didn't use tab3 and we have table like[3,2,3]
